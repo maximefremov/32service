@@ -19,10 +19,10 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        run: npm install
+        run: yarn
 
       - name: Build project
-        run: npm run build
+        run: yarn build
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
@@ -31,4 +31,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /www/test/
+          server-dir: /www/xn--32-flclq0cfe.xn--p1ai/
