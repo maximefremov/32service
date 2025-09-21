@@ -1,0 +1,14 @@
+Project: 32service
+Year: 2024-2025
+-----------------------------
+Author: Maxim Efremov
+Site: https://32сервис.рф/
+E-mail: maximefremov@mail.ru
+-----------------------------
+
+Installation:
+-----------------------------
+:$ yarn install
+:$ yarn dev
+:$ yarn build
+-----------------------------
