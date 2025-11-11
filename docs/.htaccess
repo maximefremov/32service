@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} xn--32-dlclq0cfe.xn--p1ai
+RewriteRule (.*) http://xn--32-flclq0cfe.xn--p1ai/$1 [R=301,L]
