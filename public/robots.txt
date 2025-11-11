@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Host: https://xn--32-flclq0cfe.xn--p1ai
+Sitemap: https://xn--32-flclq0cfe.xn--p1ai/sitemap.xml
