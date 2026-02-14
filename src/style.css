@@ -93,6 +93,13 @@ a:hover {
   text-align: right;
 }
 
+.main-services {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
 .main__desc {
   color: #98c7a3;
   font-size: 25px;
@@ -100,13 +107,13 @@ a:hover {
   margin: 0 0 20px;
 }
 
-.main__bonus {
+.main__service {
   background-color: rgba(152, 199, 163, 0.4);
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
   padding: 10px 15px;
-  margin: 0 0 30px;
+  margin: 0;
 }
 
 .main__name {
